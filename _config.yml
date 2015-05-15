@@ -6,9 +6,9 @@ baseurl: /blog
 markdown: redcarpet
 safe: false
 highlighter: pygments
-title: 机器人的思考
-description:  瓦力：伊娃!
-theme: slate
+title: Thinking in Robot
+description:  I don't want to survive, I want to live ---- WALL.E
+theme: midnight
 disqusname: xcq2000
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
