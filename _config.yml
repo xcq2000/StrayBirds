@@ -8,7 +8,7 @@ safe: false
 highlighter: pygments
 title: 机器人的思考
 description:  瓦力：伊娃!
-theme: hack
+theme: midnight
 disqusname: xcq2000
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
