@@ -6,4 +6,13 @@ comments: true
     {% include layout_kunka_post.html %}
 {% else %}
     {{content}}
+	<div class="comment">
+        {% if site.disqus.config %}
+        <div id="disqus_thread"></div>
+        {% else %}
+            {% if site.duoshuo.config %}
+            <div class="ds-thread"></div>
+            {% endif %}
+        {% endif %}
+    </div>
 {% endif %}

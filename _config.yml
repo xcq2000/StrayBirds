@@ -8,7 +8,7 @@ safe: false
 highlighter: pygments
 title: Thinking in Robot
 description:  I don't want to survive, I want to live ---- WALL.E
-theme: kunka
+theme: leap-day
 disqusname: xcq2000
 
 # theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
