@@ -1,15 +1,24 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
 
-#################################### global configure #######################################
+# Permalinks
+permalink:        pretty
 
-username: xcq2000
-baseurl: 
-markdown: redcarpet
-safe: false
-highlighter: pygments
-title: Thinking in Robot
-description:  I don't want to survive, I want to live ---- WALL.E
-theme: leap-day
-disqusname: xcq2000
+# Setup
+title:            Lanyon
+tagline:          'A Jekyll theme'
+description:      'A reserved <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              http://lanyon.getpoole.com
 
-# theme can be: hack, leap-day, merlot, midnight, minimal, modernist, slate, time-machine, kunka
-# those themes are all come from GitHub Pages Themes
+author:
+  name:           'Mark Otto'
+  url:            https://twitter.com/mdo
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/poole/lanyon
