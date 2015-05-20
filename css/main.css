@@ -60,6 +60,17 @@ a:visited { color: #205caa; }
   z-index: 1;
 }
 
+.site-tagline{
+  display: block;
+  color: #666;
+  font-size: 26px;
+  letter-spacing: -5px;
+  float: left;
+  line-height: 56px;
+  position: relative;
+  z-index: 1;
+}
+
 .site-nav {
   float: right;
   line-height: 56px;
