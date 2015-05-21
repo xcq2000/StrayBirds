@@ -4,8 +4,12 @@ title: About
 permalink: /about/
 ---
 
-Why Aurora Borealis? Aurora Borealis is the name of northern lights. I have a dream that someday I could see this beautiful northern lights. 
+Some information about you!
 
-![Aurora Borealis](/images/aurora_borealis.jpg) 
+### More Information
 
-[Image source](http://commons.wikimedia.org/wiki/File:Aurora_borealis_above_Lyngenfjorden,_2012_March.jpg#mediaviewer/File:Aurora_borealis_above_Lyngenfjorden,_2012_March.jpg)
+A place to include any other types of information that you'd like to include about yourself.
+
+### Contact me
+
+[email@domain.com](mailto:email@domain.com)
