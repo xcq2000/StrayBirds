@@ -4,7 +4,7 @@ title: ROS细节之：hector_mapping
 category: ROS
 ---
 
-hector_mapping可以取代gmapping生成地图，而且不需要提供odom信息，另外比gmapping占用运算资源少。hector\_mapping还可以用来检验odom的正确性。
+hector\_mapping可以取代gmapping生成地图，而且不需要提供odom信息，另外比gmapping占用运算资源少。hector\_mapping还可以用来检验odom的正确性。
 
 ## hector\_mapping的三种用法
 
@@ -36,6 +36,7 @@ odom提供的是在odom坐标系下，base\_link的位姿，这个是存在累�
 ```
 
 rviz中看，没有odom坐标系了。
+
 ![without odom](/images/2015-05-24-hector-mapping/hector_002.png)
 
 既然hector\_mapping没有用到odom，那么直接生成map到 base\_link的坐标变换，更加简洁明了。看下navi包中的坐标系关系：
