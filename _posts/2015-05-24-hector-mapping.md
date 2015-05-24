@@ -40,7 +40,7 @@ rviz中看，没有odom坐标系了。
 
 既然hector\_mapping没有用到odom，那么直接生成map到 base\_link的坐标变换，更加简洁明了。看下navi包中的坐标系关系：
 
-![odom微调](/images/2015-05-24-hector-mapping/frame.png)
+![odom微调](/images/2015-05-24-hector-mapping/frame.jpg)
 
 odom坐标系的物理意义，代表小车在以其起点为参考的坐标系中的位姿，而小车的起点理论上在map中是不动的，也即理论上odom代表了小车在map中的位姿。odom一般通过车轮编码或者6轴传感器累加得到。
 
